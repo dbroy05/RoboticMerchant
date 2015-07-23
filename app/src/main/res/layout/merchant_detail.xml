@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            >
+
+        <ImageView android:id="@+id/merchant_product_image"
+            android:layout_width="148dp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/qui_ut"
+            />
+        </FrameLayout>
+
+        <RelativeLayout android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+            <TextView
+                android:id="@+id/merchant_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satterfield-Gottlieb"
+                android:textColor="@color/gray_dark"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$31.09"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:layout_alignTop="@+id/merchant_name"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/merchant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/material_blue_grey_800"
+            android:text="Sleek Plastic Shirt"/>
+
+        <TextView
+            android:id="@+id/merchant_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/material_blue_grey_900"
+            android:text="Sleek Plastic Shirt"/>
+
+    </LinearLayout>
+</ScrollView>

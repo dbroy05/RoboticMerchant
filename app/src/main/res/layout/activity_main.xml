@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_bkg">
+
+    <TextView android:text="@string/main_header" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"/>
+    <ListView
+        android:id="@+id/merchant_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="2dp"
+        android:fadingEdgeLength="0dp"
+        android:scrollbars="none"
+        android:drawSelectorOnTop="true"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/error_message"
+        android:text="@string/no_data_found" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</LinearLayout>

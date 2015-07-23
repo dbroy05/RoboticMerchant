@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LivingSocial</string>
+
+    <string name="main_header">Merchants List</string>
+    <string name="action_search">Search</string>
+    <string name="imageview_url">image_url</string>
+    <string name="search_hint">Search by title</string>
+    <string name="no_data_found">No Merchant found</string>
+</resources>
